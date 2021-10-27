@@ -70,7 +70,7 @@ class PaperRockScissors {
 		this.results[ result ] = this.results[ result ] + 1;
 		this.results[ 'total' ] = this.results[ 'total' ] + 1;
 		this.resultsByChoice['paper'][ result ]++;
-		this.resultsByChoice['pape']['total']++;
+		this.resultsByChoice['paper']['total']++;
 		return result;
 	}
 
